@@ -1,0 +1,40 @@
+# ---- 构建产物 ----
+server/build/
+feature_exp/target/
+**/*.cjo
+**/*.a
+**/*.exe
+**/*.hap
+**/*.app
+**/.cache/
+**/__pycache__/
+
+# ---- HarmonyOS / DevEco ----
+app/.hvigor/
+app/.idea/
+app/oh_modules/
+app/build/
+app/entry/build/
+app/entry/.preview/
+app/local.properties
+app/entry/local.properties
+*.p12
+*.cer
+*.p7b
+
+# ---- 个人实验工程（不进主仓） ----
+feature_exp/
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 本地配置 / 密钥 ----
+.env
+.env.*
+!.env.example
+*.log
+~$*

@@ -1,0 +1,13 @@
+[package]
+  cjc-version = "1.0.5"
+  name = "campus"
+  description = "Campus activity and club management - Cangjie cloud service"
+  version = "0.1.0"
+  target-dir = ""
+  output-type = "executable"
+  compile-option = ""
+  override-compile-option = ""
+  link-option = ""
+  package-configuration = {}
+
+[dependencies]

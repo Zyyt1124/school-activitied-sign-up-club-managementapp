@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "校园活动与社团管理"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "校园活动与社团管理入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "校园社团"
+    }
+  ]
+}
