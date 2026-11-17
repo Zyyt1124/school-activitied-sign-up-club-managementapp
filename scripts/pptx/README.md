@@ -1,6 +1,8 @@
-# 开题 PPT 修改脚本
+# 开题 / 中期答辩 PPT 脚本
 
 ## 用途
+
+### 1. 开题 PPT（`modify_opening_ppt.py`）
 
 按老师反馈重新生成开题 PPT：
 
@@ -9,19 +11,31 @@
 - 把 8 周分工细化成 12 周（两页）
 - 统一页脚、色板、字体
 
-## 用法
-
 ```bash
 python scripts/pptx/modify_opening_ppt.py \
   "校园活动与社团管理_原版备份.pptx" \
   "校园活动与社团管理.pptx"
 ```
 
+### 2. 中期答辩 PPT（`build_midterm_ppt.py`）
+
+从空白重新生成 15 页中期答辩 PPT，按「已经做出来的东西 → 踩过的坑 →
+后面 6 周怎么干」组织，语言面向大二学生，每页带演讲备注。
+
+```powershell
+py -3.13 scripts/pptx/build_midterm_ppt.py 校园活动与社团管理_中期答辩.pptx
+```
+
+测试数字是示例值，答辩前改脚本顶部的 `METRICS` 后重新生成。
+详见 [`docs/09-midterm-defense.md`](../../docs/09-midterm-defense.md)。
+
 依赖：`python-pptx`、`lxml`。
 
 ```bash
-pip install python-pptx lxml
+py -3.13 -m pip install python-pptx lxml
 ```
+
+> 本机 Python 3.14 alpha 的 `lxml` 会加载失败，请用 `py -3.13`。
 
 ## 注意
 

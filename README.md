@@ -30,8 +30,9 @@
 │   ├── db/                 # schema.sql / queries.sql / seed.sql
 │   └── README.md
 ├── docs/                   # 架构、数据库、接口、仓颉规范、上架、12 周计划
-├── scripts/pptx/           # 开题 PPT 修改脚本
+├── scripts/pptx/           # 开题 / 中期答辩 PPT 脚本
 ├── 校园活动与社团管理.pptx          # 修改后的开题 PPT（14 页）
+├── 校园活动与社团管理_中期答辩.pptx  # 中期答辩 PPT（15 页）
 ├── 校园活动与社团管理_原版备份.pptx  # 修改前备份
 └── app大致设计思路.docx             # 最初的设计思路
 ```
@@ -104,6 +105,7 @@ ArkTS 端侧  ──HTTPS + JSON──▶  仓颉云侧服务  ──SQL / 事�
 - [12 周开发计划](docs/06-roadmap-12weeks.md)
 - [Git 工作流](docs/07-dev-workflow.md)
 - [开题 PPT 修改说明](docs/08-ppt-change-log.md)
+- [中期答辩 PPT 说明](docs/09-midterm-defense.md)
 
 ## 开题 PPT 改了什么
 
@@ -139,6 +141,7 @@ ArkTS 端侧  ──HTTPS + JSON──▶  仓颉云侧服务  ──SQL / 事�
 | SQL schema / 核心 SQL | 已出 |
 | SQL 适配器 / HTTP transport | 待 W3–W4 |
 | 开题 PPT | 已按反馈修改，14 页 |
+| 中期答辩 PPT | 15 页，按「成果 / 问题 / 计划」组织 |
 | 12 周计划 / 上架清单 | 已出 |
 
 ## 下一步
